@@ -1,0 +1,104 @@
+/* this is a div container catch all the elements */
+.conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+}
+
+/* edit the image margin */
+header img{
+  margin: 2px 40px;
+}
+/* edit the element  */
+header .horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin: 10px -40px;
+
+}
+
+/* make the item floating  */
+.horizontal-menu li {
+  float: left;
+ 
+}
+/* edit the horizotal link  */
+.horizontal-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Hovering the horizontal class  */
+ .horizontal-menu li a:hover {
+  background-color: #111111;
+}
+
+
+/* the width  */
+.vertical-menu {
+  width: 200px;
+}
+
+/* Remove the styling that was comed by default      */
+ul li {
+  list-style-type: none;
+}
+
+/* edit on link */
+.vertical-menu  a {
+  background-color: #eee;
+  color: black;
+  font-weight: 600;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+/* hovering the link  */
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+/* Edit the link with active class */
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+/* main footer */
+footer{
+     margin-right: 170px;
+}
+
+/* footer link */
+footer a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 30px;
+    position: relative;
+    bottom: 64px;
+
+}
+
+/* Hovering the link */
+footer a:hover{
+  color: black;
+  background-color: #eee;
+}
+
+
+
+
