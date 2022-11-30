@@ -1,11 +1,5 @@
 /*start general options */
 
-
-/* *{
-    text-decoration: none;
-    list-style-type: none;
-    
-  } */
   
 
   nav li a{
@@ -22,6 +16,7 @@ nav ul {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
      background-color: #302e2e;
+     position: relative;
   }
   
   :root{
@@ -114,7 +109,7 @@ nav ul {
   }
   .gallery::after{
     content: "";
-    width: 572px;
+    width: 620px;
     height: 1px;
     background-color: #eee;
     position: absolute;
@@ -152,7 +147,6 @@ nav ul {
   
   .block{
     width: 200px;
-    margin-left: 50px;
   }
   .flexOne{
     width: 900px;
@@ -194,23 +188,58 @@ nav ul {
     -o-border-radius: 5px;
 }
 
+
+
+/* Start section form  */
+form{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+  line-height: 15px;
+  position: relative;
+  /* left: 10px; */
+
+}
+
+form label{
+  color: white;
+  font-weight: 600;
+}
+form input {
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+
+form .radioButton{
+  display: in-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+/* End section form */
+
+
   /* Start footer */
 footer {
     margin-top: 100px;
     color: white;
     position: relative;
+    
 }
 
 
 footer::after{
-   
     content: "";
     width: 900px;
     height: 1px;
     background-color: #eee;
     position: absolute;
-    top: 5px;
-    left: -340px;
-
+    top: -18px;
+    left: -400px;
 }
   /* End footer *
